@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input{
+            margin-bottom: 8px;
+        }
+    </style>
+</head>
+<body>
+    <form action="#" method="get">
+        <div>
+            <label for="name">
+                이름: 
+            </label>
+            <input type="text" name="uname" id="name">
+        </div>
+        <div>
+            <label for="id">
+                아이디: 
+            </label>
+            <input type="text" name="id" id="id">
+        </div>
+        <div>
+            <label for="password">
+                비밀번호: 
+            </label>
+            <input type="password" name="password" id="password">
+        </div>
+        <div>
+            <label for="password">
+                사진: 
+            </label>
+            <input type="file" name="file" id="file">
+        </div>
+        <div>
+            <label for="password">
+                성별구분: 
+            </label>
+            <input type="radio" name="gender" id="gender" value="man"> 남
+            <input type="radio" name="gender" id="gender" value="woman"> 여
+        </div>
+        <div>
+            <label for="checkbox">
+                체크박스: 
+            </label>
+            <input type="checkbox" name="checkbox" id="checkbox" value="1"> 한글
+            <input type="checkbox" name="checkbox" id="checkbox" value="2"> 영어
+            <input type="checkbox" name="checkbox" id="checkbox" value="3"> 일어
+        </div>
+
+        <div>
+            <label for="textarea">
+                자기소개: 
+            </label>
+            <textarea name="textarea" id="textarea" cols="30" rows="10"></textarea>
+        </div>
+        <select name="select">
+            <option value="">Korea</option>
+            <option value="">USA</option>
+            <option value="">Japan</option>
+            <option value="">China</option>
+        </select>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
+</body>
+</html>
