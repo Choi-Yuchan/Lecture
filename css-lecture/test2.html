@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="#" method="get">
+      <div>이름: <input type="text" name="name" /></div>
+      <div>아이디: <input type="text" name="id" /></div>
+      <div>비밀번호: <input type="password" name="password" /></div>
+      <div>
+        연락처: <input type="number" name="account" />-<input
+          type="number"
+          name="account"
+        />-<input type="number" name="account" />
+      </div>
+      <div>사진: <input type="file" name="file" /></div>
+      <div>
+        성별구분: <input type="radio" name="gender" value="male" />남,
+        <input type="radio" name="gender" value="female" />여
+      </div>
+      <div>
+        사용언어: <input type="checkbox" checked /> 한글,
+        <input type="checkbox" /> 영어,<input type="checkbox" /> 일본어,<input
+          type="checkbox"
+        />
+        중국어,
+      </div>
+
+      자기소개:<textarea
+        cols="30"
+        rows="10"
+        placeholder="간단하게 입력하세요."
+      ></textarea>
+      <div>
+        국적:
+        <select name="nationality" id="nationality">
+          <option value="korea">KOREA</option>
+          <option value="japan">JAPAN</option>
+          <option value="usa">USA</option>
+        </select>
+      </div>
+      <div>
+        좋아하는음식:
+        <select name="food" id="food" multiple>
+          <option value="김치">김치</option>
+          <option value="불고기">불고기</option>
+          <option value="파전">파전</option>
+          <option value="비빔밥">비빔밥</option>
+        </select>
+      </div>
+      <input type="submit" name="submit" />
+    </form>
+  </body>
+</html>
