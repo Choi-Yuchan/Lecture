@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        text-align: center;
+      }
+      div {
+        width: 200px;
+        height: 200px;
+        margin: 0.5em auto;
+      }
+      div:first-child {
+        background-color: orange;
+      }
+      div:nth-child(2) {
+        background-color: blue;
+      }
+      div:nth-child(3) {
+        background-color: pink;
+      }
+      div:nth-child(4) {
+        background-color: greenyellow;
+      }
+
+      @media screen and (min-width: 768px) {
+        div {
+          width: 45%;
+          display: inline-block;
+          margin: 0.5em 0.625em;
+        }
+      }
+      @media screen and (min-width: 1024px) {
+        div {
+          width: 20%;
+          margin-inline: 1em;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>반응형 웹 디자인</h1>
+    <main>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </main>
+  </body>
+</html>
