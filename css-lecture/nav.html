@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #nav {
+        width: 800px;
+        margin: 0 auto;
+        text-align: center;
+        overflow: hidden;
+        border: 1px solid red;
+      }
+      #nav > div {
+        float: left;
+        width: 150px;
+        height: 60px;
+        line-height: 60px;
+        border-block: 1px solid #ccc;
+      }
+      #nav::after {
+        clear: both;
+      }
+      a {
+        text-decoration: none;
+        color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="nav">
+      <div><a href="#">menu1</a></div>
+      <div><a href="#">menu2</a></div>
+      <div><a href="#">menu3</a></div>
+      <div><a href="#">menu4</a></div>
+      <div><a href="#">menu5</a></div>
+    </div>
+  </body>
+</html>
