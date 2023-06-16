@@ -1,0 +1,25 @@
+
+public class practice {
+	public static void main (String[] args) {
+		int 국어 = 90;
+		int 영어 = 70;
+		int 수학 = 45;
+		
+		int total = 국어 + 영어 + 수학;
+		double average = total / 3;
+		char grade;
+		
+		
+		if (average > 90) {
+			grade = '수';
+		} else if (average > 80) {
+			grade = '우';
+		} else {
+			grade = '미';
+		}
+				
+		System.out.println("총점: " + total);
+		System.out.println("평: " + average);
+		System.out.println("성적: " + grade);
+	}
+}

@@ -1,0 +1,20 @@
+//Hello
+
+public class HelloWorld2 {
+
+	public static void main(String[] args) {
+		double pi = 3.1415;
+		int wholeNumber = (int) pi;
+		
+		long num1 = 3000000007L;
+		int num2 =  num1;
+		
+		short num3 = 1;
+		short num4 = 2;
+		short num5 = (short) (num3 + num4);
+		
+		System.out.println(wholeNumber);
+		System.out.println(num2);
+		System.out.println(num5);
+	}
+}

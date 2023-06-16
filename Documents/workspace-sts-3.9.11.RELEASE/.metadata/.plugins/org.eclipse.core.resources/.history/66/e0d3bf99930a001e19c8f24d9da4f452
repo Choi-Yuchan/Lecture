@@ -1,0 +1,17 @@
+
+public class HelloWorld {
+
+	public static void main(String[] args) {
+//		int는 정수 4byte
+//		double은 실수 8byte
+		double num1, num2;
+		double result;
+		num1 = 1.0000001;
+		num2 = 2.0000003;
+		result = num1 + num2;
+		
+		
+		System.out.println(result);
+	}
+
+}
